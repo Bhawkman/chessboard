@@ -108,10 +108,6 @@ class Main:
                 # key press
                 elif event.type == pygame.KEYDOWN:
                     
-                    # changing themes
-                    if event.key == pygame.K_t:
-                        game.change_theme()
-
                      # changing themes
                     if event.key == pygame.K_r:
                         game.reset()
